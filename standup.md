@@ -6,6 +6,11 @@
 2. p2
 ...
 
+### General Agenda:
+
+### General Concerns:
+
+### Individual Status:
 #### P1
 - Priority:
 - Progress:
