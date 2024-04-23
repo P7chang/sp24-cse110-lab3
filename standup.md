@@ -1,6 +1,6 @@
 # Meeting Title
 ## Team Name
-## Date
+### Date
 ### Participants:
 1. p1
 2. p2
