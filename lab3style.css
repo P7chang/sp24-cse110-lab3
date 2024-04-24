@@ -1,5 +1,16 @@
+* {
+    /*text alignment*/
+    text-align: left;
+}
+
+h1 {
+    /*position sticky*/
+    position: sticky;
+    top: 10px;
+}
+
 h2 {
-    color: hsla(61, 96%, 70%, 1); /*Color*/
+    color: hsla(61, 96%, 70%, 1); /*Color, also text color*/
     /*Margin Long*/
     margin-top: 1rem;
     margin-right: 80vw;
@@ -9,6 +20,13 @@ h2 {
 
     /*padding short*/
     padding: 1mm 1mm 1mm 5mm;
+
+    /*Sizing*/
+    height: 1cm;
+    width: 5cm;
+    max-width: 10cm;
+    min-width: 2cm;
+
 }
 
 h3 {
@@ -24,10 +42,14 @@ li {
 
 #agenda1 {
     color: color-mix(in srgb, cyan, silver); /*Color mix*/
+    /*text-decoration*/
+    text-decoration: underline;
+    /*position sticky*/
+    position: sticky;
 }
 
 .pid {
-
+    display: inline-block; /*display in-line block*/
 }
 
 label {
@@ -41,4 +63,7 @@ label {
     padding-bottom: 10pt;
     padding-left: 5pt;
     padding-right: 5pt;
+    display: block; /*display block*/
+    /*position static*/
+    position: static;
 }
