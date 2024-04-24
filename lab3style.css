@@ -1,16 +1,44 @@
 h2 {
     color: hsla(61, 96%, 70%, 1); /*Color*/
+    /*Margin Long*/
+    margin-top: 1rem;
+    margin-right: 80vw;
+    margin-bottom: 10px;
+    margin-left: 1em;
+    border-style:dashed;
+
+    /*padding short*/
+    padding: 1mm 1mm 1mm 5mm;
 }
 
 h3 {
     color: honeydew; /*Color*/
+    margin: auto; /*margin auto*/
 }
 
 li {
     --list-color: color(srgb 10 100 100); /*Color Space and variable*/
     color: var(--list-color, gold); /*using variable with fallback*/
+    margin: 1mm 1cm 1mm 1cm; /*Margin short*/
 }
 
 #agenda1 {
     color: color-mix(in srgb, cyan, silver); /*Color mix*/
+}
+
+.pid {
+
+}
+
+label {
+    /*Borders*/
+    border-style: dotted;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 1cm;
+    /*Padding long*/
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
 }
