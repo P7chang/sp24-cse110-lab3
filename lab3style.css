@@ -1,0 +1,16 @@
+h2 {
+    color: hsla(61, 96%, 70%, 1); /*Color*/
+}
+
+h3 {
+    color: honeydew; /*Color*/
+}
+
+li {
+    --list-color: color(srgb 10 100 100); /*Color Space and variable*/
+    color: var(--list-color, gold); /*using variable with fallback*/
+}
+
+#agenda1 {
+    color: color-mix(in srgb, cyan, silver); /*Color mix*/
+}
