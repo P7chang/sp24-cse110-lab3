@@ -60,10 +60,36 @@ li {
     color: gold
 }
 
+/*Descendant Combinator*/
+#LastMeeting h3 {
+    color: aqua;
+}
+
+/*Child Combinator*/
+#Questions > h3 {
+    color: dodgerblue;
+}
+
+/*General sibling combinator*/
+h3 ~ p {
+    color: silver;
+}
+
+/*Adjacent sibling combinator*/
+h3 + p {
+    background-color: darkblue;
+}
+
 /*attribute selector*/
 p[id="chant"] {
     display: inline; /*display in-line*/
     color: aqua;
+}
+
+/*Combining Two Selectors*/
+p.special {
+    color: darkred;
+    background-color: darkgoldenrod;
 }
 
 label {
