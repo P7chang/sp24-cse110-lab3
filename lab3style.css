@@ -4,7 +4,7 @@
     font-style: normal;
   }
 
-
+/*universal selector*/
 * {
     /*text alignment*/
     text-align: left;
@@ -55,8 +55,15 @@ li {
     position: sticky;
 }
 
-a[pid] {
-    display: inline-block; /*display in-line block*/
+/*selector list*/
+#skin1, #skin2 {
+    color: gold
+}
+
+/*attribute selector*/
+p[id="chant"] {
+    display: inline; /*display in-line*/
+    color: aqua;
 }
 
 label {
@@ -75,7 +82,7 @@ label {
     position: static;
 }
 
-/*Pseudo-classes*/
+/*Pseudo-classes, Pseudo-class selector*/
 button:hover {
     color: red;
 }
