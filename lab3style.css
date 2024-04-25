@@ -146,7 +146,7 @@ button:active {
 
 
 /*media query*/
-@media (max-device-width: 425px) {
+@media (max-width: 425px) {
     #form {
         font-size: larger;
         background-color: white;
