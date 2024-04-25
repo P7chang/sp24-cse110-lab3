@@ -92,6 +92,18 @@ p.special {
     background-color: darkgoldenrod;
 }
 
+/*:has()*/
+h2:has(+ nav) {
+    color:silver;
+}
+
+/*Nested Selector*/
+button {
+    &:hover {
+        background-color: gold;
+    }
+}
+
 label {
     /*Borders*/
     border-style: dotted;
