@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="lab3style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap" rel="stylesheet">
     <title >Meeting: Lab 2</title>
     <link rel="icon" href="Glaceon.jpg">
     <meta charset="UTF-8">
@@ -13,11 +16,11 @@
   </head>
   <body>
     <header>
-      <h1 style="color:#c0911b">Lab2 Meeting - Gaming Topics</h1>
+      <h1 style="color:#c0911b" class="jacquard-12-charted-regular">Lab2 Meeting - Gaming Topics</h1>
       <h2>April 15 2024</h2>
-      <nav id="navi">
+      <nav>
         <h2>sections</h2>
-        <ol>
+        <ol id="navi">
           <li><a href="#attendance">Attendance</a></li>
           <li><a href="#Agenda">Agenda</a></li>
           <li><a href="#LastMeeting">From Last Time</a></li>
@@ -88,9 +91,9 @@
     <footer>
       <p>Author: Peter Chang</p>
     </footer>
-    <form>
+    <form id="form">
       <fieldset>
-        <label class="pid">PID:</label>
+        <label attribute="pid" id="pid">PID:</label>
         <input type="text">
         <label>Grad Student:</label>
         <input type="checkbox">
